@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+.header {
+    height: 100vh;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 30px;
+    margin-right: 7%;
+}
+
+.nav h2{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.nav li {
+    margin-right: 30px; 
+}
+
+.nav a {
+    text-decoration: none;
+    color: black; 
+}
+.header h3{
+    font-weight: 400;
+    margin-top: 6%;
+    line-height: 25px;
+}
+.first{
+    display: flex;
+}
+.header .text-container {
+    height: 50vh;
+    width: 40%;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+.ctaction{
+    margin-left: 25%;
+    margin-top: 6%;
+    padding: 10px;
+    background-color: #f89e37;
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+    font-weight: 600;
+    font-family: "Inter";
+}
+.ctaction:hover {
+    cursor: pointer;
+}
+.cards {
+    height: 470px;
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.card-index{
+    transition: all 1.5s ease; 
+    box-shadow: 0 0 5px #6e6d6d;
+    position: relative;
+}
+.card-1{
+    height: 170px;
+    width: 140px;
+    border: 1px solid green;
+    z-index: 1;
+}
+.card-2{
+    height: 170px;
+    width: 140px;
+    border: 1px solid red;
+    z-index: 10;
+    margin-left: 70px;
+    margin-top: -25px;
+}
+.card-3{
+    height: 170px;
+    width: 140px;
+    border: 1px solid green;
+    z-index: 1;
+    margin-top: -25px;
+}
+.about-me{
+    display: flex;
+    height: 60vh;
+    width: 100%;
+    justify-content: center;
+}
+.description{
+    margin-top: 7%;
+    height: 200px;
+    width: 50%;
+    border-radius: 30px;
+    border: 1px solid #a3a3a3;
+    text-align: center;
+    box-shadow: 0 0 40px #f1f0f0;
+}
+.description p{
+    margin: 20px auto;
+    width: 70%;
+    line-height: 25px;
+}
+.description h3{
+    font-size: 30px;
+}
+.proyectos{
+    height: 850px;
+    text-align: center;
+}
+.proyectos h2{
+    font-weight: 600;
+    font-size: 40px;
+}
+.recurso{
+    overflow: hidden;
+}
+.rectangulo{
+    transition: all 0.5s ease-in-out;
+    margin-left: -250%;
+}
